@@ -2,7 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, create a .env.local file has the follows:
+
+```
+MONGO_URI=mongodb://backend:27017/foodfinder
+GITHUB_CLIENT_ID=you github client id
+GITHUB_CLIENT_SECRET=you github client secret
+NEXTAUTH_SECRET=whatever you like eg. 78f6cc4bf633b1102f4ca4d72602c60f 
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
